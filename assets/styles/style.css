@@ -140,10 +140,11 @@ main {
   transform: scale(1.2);
 }
 /* Версия для очень маленьких экранов */
-@media (max-width: 480px) {
+@media (min-width: 200px) and (max-width: 699px) {
   main {
     padding: 0 10px;
     gap: 12px;
+    margin: 3% 0;
   }
 
   .group {
@@ -170,6 +171,10 @@ main {
 
   .description {
     font-size: 1em;
+    opacity: 1;
+    max-height: 100px;
+    opacity: 1;
+    margin-top: 10px;
   }
 
   .icons_download {
@@ -180,15 +185,38 @@ main {
     width: 30px;
     height: 30px;
   }
+  .glassmorphism {
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0)
+    );
+    backdrop-filter: blur(2px);
+  }
 }
 
 /* Планшеты */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 700px) and (max-width: 1023px) {
   .group {
     max-width: 45%;
   }
 
   main {
     gap: 20px;
+  }
+  .glassmorphism {
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0)
+    );
+    backdrop-filter: blur(2px);
+  }
+  .description {
+    font-size: 1em;
+    opacity: 1;
+    max-height: 100px;
+    opacity: 1;
+    margin-top: 10px;
   }
 }

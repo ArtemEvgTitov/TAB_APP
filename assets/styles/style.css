@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body.locked {
+  overflow: hidden;
+}
+
+main {
+  margin: 1% 0;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  line-height: 2em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px 15px;
+}
+
+.app_image {
+  width: 20%;
+  border-radius: 100px;
+  background-color: white;
+}
+
+.group {
+  max-width: 30%;
+  height: 100%;
+  background-image: url("../images/start_background_gradient.png");
+  border-radius: 10px;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+.group:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
+}
+.green {
+  background-color: rgba(80, 184, 72, 1);
+}
+.blue {
+  background-color: rgba(2, 87, 141, 1);
+}
+.orange {
+  background-color: rgba(245, 130, 32, 1);
+}
+.glassmorphism {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(0.5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  transition: background 0.5s ease-out, backdrop-filter 0.5s ease-out;
+}
+
+.glassmorphism:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(2px);
+}
+.group_name {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+}
+.app {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4%;
+  padding: 15px;
+  border-radius: 10px;
+  min-height: 25%;
+}
+.title_description {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.title {
+  font-size: 2em;
+  border-bottom: 1px solid;
+}
+.description {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.app:hover .description {
+  opacity: 1;
+  max-height: 100px;
+  opacity: 1;
+  margin-top: 10px;
+}
+.icons_download {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
+}
+.link_download {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.image_download {
+  filter: invert(1);
+  transition: filter 0.5s ease-out, transform 0.3s ease-out;
+}
+
+.image_download:hover {
+  transform: scale(1.2);
+}

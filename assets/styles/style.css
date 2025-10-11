@@ -148,6 +148,7 @@ main {
 
   .group {
     padding: 15px;
+    max-width: 100%;
   }
 
   .app {

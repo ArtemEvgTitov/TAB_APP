@@ -139,3 +139,55 @@ main {
 .image_download:hover {
   transform: scale(1.2);
 }
+/* Версия для очень маленьких экранов */
+@media (max-width: 480px) {
+  main {
+    padding: 0 10px;
+    gap: 12px;
+  }
+
+  .group {
+    padding: 15px;
+  }
+
+  .app {
+    padding: 15px 10px;
+  }
+
+  .app_image {
+    width: 70px;
+    height: 70px;
+  }
+
+  .title {
+    font-size: 1.3em;
+  }
+
+  .group_name {
+    font-size: 1.2em;
+  }
+
+  .description {
+    font-size: 1em;
+  }
+
+  .icons_download {
+    gap: 15px;
+  }
+
+  .image_download {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/* Планшеты */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .group {
+    max-width: 45%;
+  }
+
+  main {
+    gap: 20px;
+  }
+}

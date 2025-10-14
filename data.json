@@ -290,61 +290,36 @@
           "downloads": [
             {
               "type": "rustore",
-              "url": "#",
+              "url": "https://www.rustore.ru/catalog/app/com.yandex.browser",
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
-              "type": "apk",
-              "url": "#",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
               "type": "google-play",
-              "url": "#",
+              "url": "https://play.google.com/store/apps/details?id=com.yandex.browser&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
         },
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "Chrome",
+          "description": "бесплатный веб-браузер, разработанный компанией Google",
+          "image": "./assets/images/icons/Chrome.png",
           "downloads": [
             {
-              "type": "rustore",
-              "url": "",
-              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
-            },
-            {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
               "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=com.android.chrome&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
         },
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "Opera",
+          "description": "мультиплатформенный веб-браузер, разработанный компанией Opera",
+          "image": "./assets/images/icons/Opera.png",
           "downloads": [
             {
-              "type": "rustore",
-              "url": "",
-              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
-            },
-            {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
               "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=com.opera.browser&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
@@ -362,61 +337,46 @@
           "downloads": [
             {
               "type": "rustore",
-              "url": "#",
+              "url": "https://www.rustore.ru/catalog/app/us.zoom.videomeetings",
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
-              "type": "apk",
-              "url": "#",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
               "type": "google-play",
-              "url": "#",
+              "url": "https://play.google.com/store/apps/details?id=us.zoom.videomeetings&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
         },
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "AnyDesk",
+          "description": "программное обеспечение для удалённого доступа, удалённого управления",
+          "image": "./assets/images/icons/anydesk.png",
           "downloads": [
             {
               "type": "rustore",
-              "url": "",
+              "url": "https://www.rustore.ru/catalog/app/com.anydesk.anydeskandroid",
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
               "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=com.anydesk.anydeskandroid&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
         },
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "HRlink",
+          "description": "сервис кадрового электронного документооборота, позволяет подписать документ, заказать справку или оформить отпуск",
+          "image": "./assets/images/icons/HRlink.jpg",
           "downloads": [
             {
               "type": "rustore",
-              "url": "",
+              "url": "https://www.rustore.ru/catalog/app/com.hrlink.app",
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
               "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=com.hrlink.app&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
@@ -428,19 +388,65 @@
       "name": "Покупки",
       "apps": [
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "Ozon",
+          "description": "известный и крупный маркетплейс в России",
+          "image": "./assets/images/icons/Ozon.png",
           "downloads": [
             {
               "type": "rustore",
-              "url": "",
+              "url": "https://www.rustore.ru/catalog/app/ru.ozon.app.android",
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=ru.ozon.app.android&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "WB",
+          "description": "известный и крупный маркетплейс в России",
+          "image": "./assets/images/icons/wb.webp",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/com.wildberries.ru",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=com.wildberries.ru&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "Мегамаркет",
+          "description": "один из крупнейших в России маркетплейсов с миллионами товаров",
+          "image": "./assets/images/icons/мегамаркет.webp",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.megamarket.marketplace",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=ru.megamarket.marketplace&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "Яндекс.Маркет",
+          "description": "маркетплейс с 50 миллионами товаров и быстрой доставкой.",
+          "image": "./assets/images/icons/яндекс.маркет.webp",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.beru.android",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
               "type": "google-play",
@@ -450,23 +456,30 @@
           ]
         },
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "Авито",
+          "description": "крупнейшая в России онлайн-площадка для размещения и поиска разнообразных частных и коммерческих объявлений о товарах и услугах",
+          "image": "./assets/images/icons/Авито.jpg",
           "downloads": [
             {
               "type": "rustore",
-              "url": "",
+              "url": "https://www.rustore.ru/catalog/app/com.avito.android",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            }
+          ]
+        },
+        {
+          "name": "Авто.ru",
+          "description": "покупка и продажа подержанных автомобилей, автомобильные отзывы",
+          "image": "./assets/images/icons/автору.png",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.auto.ara",
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
               "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=ru.auto.ara&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
@@ -478,195 +491,81 @@
       "name": "Соц.сети/мессенджеры",
       "apps": [
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "Telegram",
+          "description": "кроссплатформенный мессенджер, разработанный в 2013 году братьями Павлом и Николаем Дуровыми",
+          "image": "./assets/images/icons/telegram.png",
           "downloads": [
             {
               "type": "rustore",
-              "url": "",
+              "url": "https://www.rustore.ru/catalog/app/org.telegram.messenger.web",
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
               "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=org.telegram.messenger&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
         },
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "VK",
+          "description": "общение, бесплатные звонки, мессенджер и чат, музыка и видео, игры и мини-приложения для любых задач",
+          "image": "./assets/images/icons/vk.jpg",
           "downloads": [
             {
               "type": "rustore",
-              "url": "",
+              "url": "https://www.rustore.ru/catalog/app/com.vkontakte.android",
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
               "type": "google-play",
-              "url": "",
-              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "class": "group orange",
-      "name": "Эл.книги",
-      "apps": [
-        {
-          "name": "",
-          "description": "",
-          "image": "",
-          "downloads": [
-            {
-              "type": "rustore",
-              "url": "",
-              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
-            },
-            {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
-              "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=com.vkontakte.android&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
         },
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "Одноклассники",
+          "description": "социальная сеть с миллионами пользователей, общение, сервисы и развлечения в приложении ОК",
+          "image": "./assets/images/icons/одноклассники.jpg",
           "downloads": [
             {
               "type": "rustore",
-              "url": "",
+              "url": "https://www.rustore.ru/catalog/app/ru.ok.android",
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
               "type": "google-play",
-              "url": "",
-              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "class": "group green",
-      "name": "Карты и навигация",
-      "apps": [
-        {
-          "name": "",
-          "description": "",
-          "image": "",
-          "downloads": [
-            {
-              "type": "rustore",
-              "url": "",
-              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
-            },
-            {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
-              "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=ru.ok.android&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
         },
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "Instagram",
+          "description": "социальная сеть для обмена фотографиями и короткими видеороликами",
+          "image": "./assets/images/icons/inst.png",
           "downloads": [
             {
-              "type": "rustore",
-              "url": "",
-              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
-            },
-            {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
               "type": "google-play",
-              "url": "",
-              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "class": "group blue",
-      "name": "Путешествия",
-      "apps": [
-        {
-          "name": "",
-          "description": "",
-          "image": "",
-          "downloads": [
-            {
-              "type": "rustore",
-              "url": "",
-              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
-            },
-            {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
-              "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=com.instagram.android&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
         },
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "TikTok",
+          "description": "сервис для создания и просмотра коротких видео, принадлежащий китайской компании ByteDance",
+          "image": "./assets/images/icons/tiktok.png",
           "downloads": [
             {
-              "type": "rustore",
-              "url": "",
-              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
-            },
-            {
               "type": "apk",
-              "url": "",
+              "url": "https://disk.360.yandex.ru/d/WwIS9ej3CfM_7g",
               "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
             },
             {
               "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
@@ -678,45 +577,289 @@
       "name": "Онлайн-видео",
       "apps": [
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "IVI",
+          "description": "один из крупнейших российских видеосервисов с большой коллекцией фильмов, сериалов и собственного производства",
+          "image": "./assets/images/icons/ivi.webp",
           "downloads": [
             {
               "type": "rustore",
-              "url": "",
+              "url": "https://www.rustore.ru/catalog/app/ru.ivi.client",
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
               "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=ru.ivi.client&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
         },
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "Amediateka",
+          "description": "сервис, специализирующийся на показе популярных зарубежных сериалов, часто вскоре после их мировых премьер",
+          "image": "./assets/images/icons/Amediateka.webp",
           "downloads": [
             {
               "type": "rustore",
-              "url": "",
+              "url": "https://www.rustore.ru/catalog/app/com.amdteka",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=com.amdteka&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "Кинопоиск",
+          "description": "известный агрегатор рецензий и рейтингов, который также стал стриминговым сервисом с собственным контентом",
+          "image": "./assets/images/icons/Кинопоиск.png",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.kinopoisk",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=ru.kinopoisk&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "Rutube",
+          "description": "российский видеохостинг, похожий на YouTube, с акцентом на отечественных блогеров и официальный медиаконтент",
+          "image": "./assets/images/icons/rutube.webp",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.rutube.app",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=rtb.mobile.android&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "Okko",
+          "description": "крупный стриминг-сервис от Сбера, предлагающий фильмы, сериалы, ТВ-каналы и многопользовательские просмотры",
+          "image": "./assets/images/icons/okko.webp",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.more.play",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=ru.more.play&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "Lampa",
+          "description": "приложение-кинотеатр, которое помогает находить фильмы по настроению и предоставляет доступ к различным подпискам",
+          "image": "./assets/images/icons/lampa.png",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/top.rootu.lampa",
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
               "type": "apk",
-              "url": "",
+              "url": "https://disk.360.yandex.ru/d/R1eh7uBJYZRAlg",
+              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "group green",
+      "name": "Карты и навигация",
+      "apps": [
+        {
+          "name": "2ГИС",
+          "description": "подробная карта городов России: поиск по адресу, телефоны, отзывы, фото, часы работы фирм",
+          "image": "./assets/images/icons/2ГИС.jpg",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.dublgis.dgismobile",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=ru.dublgis.dgismobile&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "Maps.Me",
+          "description": "быстрые, подробные и полностью автономные карты с пошаговой навигацией",
+          "image": "./assets/images/icons/MAPS.ME.jpg",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/com.mapswithme.maps.pro",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "Яндекс.Карты",
+          "description": "сервис для построения маршрутов, просмотра карт и точного ориентирования по голосу в дороге",
+          "image": "./assets/images/icons/Яндекс.Карты.png",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "group blue",
+      "name": "Видео редакторы",
+      "apps": [
+        {
+          "name": "FlipaClip:2D",
+          "description": "приложение для создания анимации, позволяющее рисовать кадры вручную, как в классическом мультфильме",
+          "image": "./assets/images/icons/FlipaClip.png",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/com.vblast.flipaclip",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "apk",
+              "url": "https://disk.360.yandex.ru/d/dcf7HoO6yDMWqA",
               "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
             },
             {
               "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=com.vblast.flipaclip&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "Kinemaster",
+          "description": "мощный видеоредактор для мобильных устройств с поддержкой слоёв, эффектов и ключевых кадров",
+          "image": "./assets/images/icons/Kinemaster.png",
+          "downloads": [
+            {
+              "type": "apk",
+              "url": "https://disk.360.yandex.ru/d/Uq8AjeniCJryBg",
+              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=com.nexstreaming.app.kinemasterfree&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "CapCut",
+          "description": "популярный бесплатный видеоредактор от создателей TikTok с большим количеством шаблонов и эффектов",
+          "image": "./assets/images/icons/CapCut.webp",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/com.lemon.lvoverseas",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "apk",
+              "url": "https://disk.360.yandex.ru/d/dqajFb7TdU2Org",
+              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "group orange",
+      "name": "Эл.книги",
+      "apps": [
+        {
+          "name": "Яндекс.Книги",
+          "description": "российский сервис для чтения электронных книг и прослушивания аудиокниг по подписке",
+          "image": "./assets/images/icons/Яндекс Книги.png",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.plus.bookmate",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=ru.plus.bookmate&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "ЛитРес",
+          "description": "крупнейший сервис электронных и аудиокниг в России",
+          "image": "./assets/images/icons/Литрес.png",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.litres.android",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "apk",
+              "url": "https://disk.360.yandex.ru/d/BN4u__b9pFnE3Q",
+              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=ru.litres.android&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "EPUB Reader",
+          "description": "красивое приложение для чтения всех книг, открывает любые форматы в удобном читаемом виде",
+          "image": "./assets/images/icons/epub.png",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/epub.reader",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=epub.reader&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
@@ -725,48 +868,101 @@
     },
     {
       "class": "group green",
-      "name": "Видео редакторы",
+      "name": "Путешествия",
       "apps": [
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "Суточно.ру",
+          "description": "крупнейший в России сайт для аренды посуточной недвижимости от собственников",
+          "image": "./assets/images/icons/СУТОЧНО.webp",
           "downloads": [
             {
               "type": "rustore",
-              "url": "",
+              "url": "https://www.rustore.ru/catalog/app/ru.sutochno_redesign",
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
               "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=ru.sutochno_redesign&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
         },
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "Авиасейлс",
+          "description": "популярный метапоисковик авиабилетов, который сравнивает цены и акции разных авиакомпаний",
+          "image": "./assets/images/icons/Авиасейлс.webp",
           "downloads": [
             {
               "type": "rustore",
-              "url": "",
+              "url": "https://www.rustore.ru/catalog/app/ru.aviasales",
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=ru.aviasales&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "РЖД",
+          "description": "официальное приложение Российских железных дорог для покупки ж/д билетов и управления поездками",
+          "image": "./assets/images/icons/ржд.webp",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.rzd.pass",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
               "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=ru.rzd.pass&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "Аэрофлот",
+          "description": "приложение национального авиаперевозчика России для бронирования билетов, регистрации и управления бонусами",
+          "image": "./assets/images/icons/Аэрофлот.webp",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.aeroflot",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            }
+          ]
+        },
+        {
+          "name": "Туту",
+          "description": "онлайн-сервис для поиска и бронирования ж/д, автобусных и авиабилетов с простым интерфейсом",
+          "image": "./assets/images/icons/tutu.webp",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.tutu.tutu_emp",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=ru.tutu.tutu_emp&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "Яндекс.Путешествия",
+          "description": "сервис для поиска отелей, билетов и оформления страховок с кешбэком от Яндекса",
+          "image": "./assets/images/icons/Я.Путешествия.webp",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.yandex.travel",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=ru.yandex.travel&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
@@ -778,45 +974,81 @@
       "name": "Услуги и операторы",
       "apps": [
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "Мой Ростелеком",
+          "description": "официальное приложение оператора для контроля счёта, покупки пакетов связи и управления тарифами",
+          "image": "./assets/images/icons/Ростелеком.webp",
           "downloads": [
             {
               "type": "rustore",
-              "url": "",
+              "url": "https://www.rustore.ru/catalog/app/com.dartit.RTcabinet",
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
               "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=com.dartit.RTcabinet&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
         },
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "Мегафон",
+          "description": "официальное приложение оператора для контроля счёта, покупки пакетов связи и управления тарифами",
+          "image": "./assets/images/icons/МегаФон.webp",
           "downloads": [
             {
               "type": "rustore",
-              "url": "",
+              "url": "https://www.rustore.ru/catalog/app/ru.megafon.mlk",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            }
+          ]
+        },
+        {
+          "name": "МТС",
+          "description": "официальное приложение оператора для контроля счёта, покупки пакетов связи и управления тарифами",
+          "image": "./assets/images/icons/МТС.webp",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.mts.mymts",
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=ru.mts.mymts&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "Т2",
+          "description": "официальное приложение оператора для контроля счёта, покупки пакетов связи и управления тарифами",
+          "image": "./assets/images/icons/t2.webp",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.tele2.mytele2",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
               "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=ru.tele2.mytele2&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
+            }
+          ]
+        },
+        {
+          "name": "Билайн",
+          "description": "официальное приложение оператора для контроля счёта, покупки пакетов связи и управления тарифами",
+          "image": "./assets/images/icons/билайн.webp",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.beeline.services",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=ru.beeline.services&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
@@ -828,45 +1060,13 @@
       "name": "Просмотр видео",
       "apps": [
         {
-          "name": "",
-          "description": "",
-          "image": "",
+          "name": "VLC",
+          "description": "бесплатный мультимедийный плеер с открытым исходным кодом, который воспроизводит практически любые видео и аудиоформаты",
+          "image": "./assets/images/icons/VLC.webp",
           "downloads": [
             {
-              "type": "rustore",
-              "url": "",
-              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
-            },
-            {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
               "type": "google-play",
-              "url": "",
-              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
-            }
-          ]
-        },
-        {
-          "name": "",
-          "description": "",
-          "image": "",
-          "downloads": [
-            {
-              "type": "rustore",
-              "url": "",
-              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
-            },
-            {
-              "type": "apk",
-              "url": "",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
-              "type": "google-play",
-              "url": "",
+              "url": "https://play.google.com/store/apps/details?id=org.videolan.vlc&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]

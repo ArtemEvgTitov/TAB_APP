@@ -6,7 +6,7 @@
       "apps": [
         {
           "name": "Sketchbook",
-          "description": "программное обеспечение для цифрового рисования и создания иллюстраций",
+          "description": "бесплатное приложение для рисования и цифрового скетчинга с профессиональными инструментами",
           "image": "./assets/images/icons/Sketchbook.png",
           "downloads": [
             {
@@ -40,7 +40,7 @@
         },
         {
           "name": "Snapseed",
-          "description": "полноценный профессиональный фоторедактор, разработанный компанией Google",
+          "description": "мощное и бесплатное приложение для редактирования фотографий на смартфоне от Google",
           "image": "./assets/images/icons/Snapseed.png",
           "downloads": [
             {
@@ -57,7 +57,7 @@
         },
         {
           "name": "Photoshop Express",
-          "description": "мобильное приложение от Adobe для быстрого редактирования фотографий",
+          "description": "мобильное приложение для быстрого редактирования фото с базовыми инструментами и фильтрами",
           "image": "./assets/images/icons/Photoshop Express.png",
           "downloads": [
             {
@@ -85,7 +85,7 @@
       "apps": [
         {
           "name": "Госуслуги",
-          "description": "интернет-портал государственных услуг и справочной информации",
+          "description": "официальное мобильное приложение портала государственных услуг России",
           "image": "./assets/images/icons/Госуслуги.png",
           "downloads": [
             {
@@ -389,7 +389,7 @@
       "apps": [
         {
           "name": "Ozon",
-          "description": "известный и крупный маркетплейс в России",
+          "description": "крупнейший российский онлайн-ритейлер с собственным маркетплейсом и службой доставки",
           "image": "./assets/images/icons/Ozon.png",
           "downloads": [
             {
@@ -406,7 +406,7 @@
         },
         {
           "name": "WB",
-          "description": "известный и крупный маркетплейс в России",
+          "description": "крупнейший российский онлайн-ритейлер с собственным маркетплейсом и службой доставки",
           "image": "./assets/images/icons/wb.webp",
           "downloads": [
             {
@@ -441,7 +441,7 @@
         {
           "name": "Яндекс.Маркет",
           "description": "маркетплейс с 50 миллионами товаров и быстрой доставкой.",
-          "image": "./assets/images/icons/яндекс.маркет.webp",
+          "image": "./assets/images/icons/ya_market_.svg",
           "downloads": [
             {
               "type": "rustore",
@@ -827,7 +827,7 @@
         },
         {
           "name": "ЛитРес",
-          "description": "крупнейший сервис электронных и аудиокниг в России",
+          "description": "крупнейший в России интернет-магазин и сервис для продажи электронных и аудиокниг",
           "image": "./assets/images/icons/Литрес.png",
           "downloads": [
             {

@@ -32,20 +32,36 @@ main {
   flex-wrap: wrap;
   gap: 15px 15px;
 }
+li {
+  padding: 1rem;
+  border-radius: 20px;
+}
+li:hover {
+  transition: all 0.3s ease;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+.menu {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  letter-spacing: 0.2px;
+  line-height: 2em;
+  display: flex;
+  justify-content: center;
+}
 .header_container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding-top: 1rem;
   border-radius: 0 0 15px 15px;
   position: relative;
 }
 
 .header_menu {
   display: flex;
-  flex-wrap: wrap; /* Разрешаем перенос на новую строку */
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem; /* Уменьшаем расстояние между пунктами */
   max-height: 0;
   overflow: hidden;
   opacity: 0;
@@ -54,32 +70,17 @@ main {
 }
 .header_container:hover .header_menu {
   opacity: 1;
-  max-height: 100%; /* Увеличиваем высоту для двух строк*/
-  opacity: 1;
-  margin-top: 10px;
-  overflow-y: auto; /* Добавляем прокрутку если нужно */
+  max-height: 100%;
+  padding: 1rem;
 }
 .header_menu li a {
   color: black;
   font-family: "Comfortaa", sans-serif;
-  font-size: 0.9em;
-  padding: 0.5rem 1rem;
+  font-size: 1.2em;
+  padding: 1.5rem;
   border-radius: 20px;
   transition: all 0.3s ease;
-  white-space: nowrap; /* Запрещаем перенос текста */
-}
-.header_menu li a:hover {
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.3),
-    rgba(255, 255, 255, 0)
-  );
-  backdrop-filter: blur(2px);
-}
-
-.link_active a {
-  background: rgba(255, 255, 255, 0.3);
-  font-weight: bold;
+  white-space: nowrap;
 }
 
 .app_image {
@@ -173,7 +174,6 @@ main {
 .app:hover .description {
   opacity: 1;
   max-height: 100px;
-  opacity: 1;
   margin-top: 10px;
 }
 .icons_download {
@@ -195,7 +195,47 @@ main {
 .image_download:hover {
   transform: scale(1.2);
 }
-/* Версия для очень маленьких экранов */
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.1)
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.scroll-to-top:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.2)
+  );
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.scroll-to-top.active {
+  opacity: 1;
+  visibility: visible;
+}
+
 @media (min-width: 200px) and (max-width: 699px) {
   main {
     padding: 0 10px;
@@ -255,12 +295,15 @@ main {
     gap: 1rem;
   }
 
-  .header_container:hover .header_menu {
-    height: 40rem;
+  .scroll-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
   }
 }
 
-/* Планшеты */
 @media (min-width: 700px) and (max-width: 1023px) {
   .group {
     max-width: 45%;
@@ -286,12 +329,19 @@ main {
   }
   .header_menu {
     gap: 1rem;
-    max-height: 200px; /* Больше места для мобильных */
+    max-height: 200px;
     overflow-y: auto;
   }
 
   .header_menu li a {
     font-size: 0.8em;
     padding: 0.4rem 0.8rem;
+  }
+  .scroll-to-top {
+    bottom: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
   }
 }

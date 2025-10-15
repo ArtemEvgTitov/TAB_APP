@@ -8,8 +8,9 @@ class SectionsLoader {
     try {
       const response = await fetch(this.jsonUrl);
       const data = await response.json();
-      this.renderHeaderMenu(data.sections); // Добавляем генерацию меню
+      this.renderHeaderMenu(data.sections);
       this.renderAllSections(data.sections);
+      this.initScrollToTop(); // Добавляем инициализацию кнопки
     } catch (error) {
       console.error("Ошибка загрузки секций:", error);
       this.container.innerHTML =
@@ -17,7 +18,6 @@ class SectionsLoader {
     }
   }
 
-  // Новый метод для генерации меню
   renderHeaderMenu(sections) {
     const headerMenu = document.querySelector(".header_menu");
 
@@ -31,14 +31,11 @@ class SectionsLoader {
       )
       .join("");
 
-    // Добавляем пункты меню после "Главная"
     headerMenu.innerHTML += menuItemsHTML;
 
-    // Добавляем обработчики событий для плавной прокрутки
     this.addSmoothScroll();
   }
 
-  // Метод для плавной прокрутки
   addSmoothScroll() {
     const links = document.querySelectorAll('.header_menu a[href^="#"]');
 
@@ -99,5 +96,24 @@ class SectionsLoader {
         <img class="image_download" width="30" height="30" src="${download.icon}" alt="${download.type}" />
       </a>
     `;
+  }
+
+  initScrollToTop() {
+    const scrollButton = document.getElementById("scrollToTop");
+
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 300) {
+        scrollButton.classList.add("active");
+      } else {
+        scrollButton.classList.remove("active");
+      }
+    });
+
+    scrollButton.addEventListener("click", () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    });
   }
 }

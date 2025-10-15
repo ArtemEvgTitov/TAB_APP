@@ -24,7 +24,7 @@
         {
           "name": "Концепты",
           "description": "гибкий векторный альбом для создания эскизов, который позволяет воплощать идеи на цифровом холсте",
-          "image": "./assets/images/icons/Концепты.jpg",
+          "image": "./assets/images/icons/concepts.jpg",
           "downloads": [
             {
               "type": "apk",
@@ -86,7 +86,7 @@
         {
           "name": "Госуслуги",
           "description": "официальное мобильное приложение портала государственных услуг России",
-          "image": "./assets/images/icons/Госуслуги.png",
+          "image": "./assets/images/icons/gosuslugi.png",
           "downloads": [
             {
               "type": "rustore",
@@ -103,7 +103,7 @@
         {
           "name": "Налоги ФЛ",
           "description": "сервис, который в режиме онлайн помогает контролировать наличие начислений и задолженности по налогам",
-          "image": "./assets/images/icons/ФНС.png",
+          "image": "./assets/images/icons/fns.png",
           "downloads": [
             {
               "type": "rustore",
@@ -120,7 +120,7 @@
         {
           "name": "Штрафы ГИБДД",
           "description": "позволяет отследить и оплатить штрафы ПДД, проверка штрафов по главным государственным источникам",
-          "image": "./assets/images/icons/Штрафы ГИБДД.jpg",
+          "image": "./assets/images/icons/gibdd_pay.jpg",
           "downloads": [
             {
               "type": "rustore",
@@ -137,7 +137,7 @@
         {
           "name": "Почта России",
           "description": "официальное приложение Почты России, оформление посылок и отправка без очереди",
-          "image": "./assets/images/icons/Почта России.png",
+          "image": "./assets/images/icons/russianpost.png",
           "downloads": [
             {
               "type": "rustore",
@@ -211,7 +211,7 @@
         {
           "name": "Яндекс.Почта",
           "description": "сервис электронной почты от компании «Яндекс», запущенный 26 июня 2000 года",
-          "image": "./assets/images/icons/яндекс.почта.png",
+          "image": "./assets/images/icons/yandex.mail.png",
           "downloads": [
             {
               "type": "rustore",
@@ -286,7 +286,7 @@
         {
           "name": "Яндекс.Браузер",
           "description": "браузер, созданный компанией «Яндекс» на основе движка Blink",
-          "image": "./assets/images/icons/Яндекс.Браузер.png",
+          "image": "./assets/images/icons/yandex.browser.png",
           "downloads": [
             {
               "type": "rustore",
@@ -424,7 +424,7 @@
         {
           "name": "Мегамаркет",
           "description": "один из крупнейших в России маркетплейсов с миллионами товаров",
-          "image": "./assets/images/icons/мегамаркет.webp",
+          "image": "./assets/images/icons/megamarket.webp",
           "downloads": [
             {
               "type": "rustore",
@@ -458,7 +458,7 @@
         {
           "name": "Авито",
           "description": "крупнейшая в России онлайн-площадка для размещения и поиска разнообразных частных и коммерческих объявлений о товарах и услугах",
-          "image": "./assets/images/icons/Авито.jpg",
+          "image": "./assets/images/icons/avito.jpg",
           "downloads": [
             {
               "type": "rustore",
@@ -470,7 +470,7 @@
         {
           "name": "Авто.ru",
           "description": "покупка и продажа подержанных автомобилей, автомобильные отзывы",
-          "image": "./assets/images/icons/автору.png",
+          "image": "./assets/images/icons/auto.png",
           "downloads": [
             {
               "type": "rustore",
@@ -527,7 +527,7 @@
         {
           "name": "Одноклассники",
           "description": "социальная сеть с миллионами пользователей, общение, сервисы и развлечения в приложении ОК",
-          "image": "./assets/images/icons/одноклассники.jpg",
+          "image": "./assets/images/icons/ok.jpg",
           "downloads": [
             {
               "type": "rustore",
@@ -613,7 +613,7 @@
         {
           "name": "Кинопоиск",
           "description": "известный агрегатор рецензий и рейтингов, который также стал стриминговым сервисом с собственным контентом",
-          "image": "./assets/images/icons/Кинопоиск.png",
+          "image": "./assets/images/icons/kinopoisk.png",
           "downloads": [
             {
               "type": "rustore",
@@ -721,7 +721,7 @@
         {
           "name": "Яндекс.Карты",
           "description": "сервис для построения маршрутов, просмотра карт и точного ориентирования по голосу в дороге",
-          "image": "./assets/images/icons/Яндекс.Карты.png",
+          "image": "./assets/images/icons/yandexmaps.png",
           "downloads": [
             {
               "type": "rustore",
@@ -811,7 +811,7 @@
         {
           "name": "Яндекс.Книги",
           "description": "российский сервис для чтения электронных книг и прослушивания аудиокниг по подписке",
-          "image": "./assets/images/icons/Яндекс Книги.png",
+          "image": "./assets/images/icons/bookmate.png",
           "downloads": [
             {
               "type": "rustore",
@@ -873,7 +873,7 @@
         {
           "name": "Суточно.ру",
           "description": "крупнейший в России сайт для аренды посуточной недвижимости от собственников",
-          "image": "./assets/images/icons/СУТОЧНО.webp",
+          "image": "./assets/images/icons/sutochno.webp",
           "downloads": [
             {
               "type": "rustore",
@@ -890,7 +890,7 @@
         {
           "name": "Авиасейлс",
           "description": "популярный метапоисковик авиабилетов, который сравнивает цены и акции разных авиакомпаний",
-          "image": "./assets/images/icons/Авиасейлс.webp",
+          "image": "./assets/images/icons/aviasales.webp",
           "downloads": [
             {
               "type": "rustore",
@@ -907,7 +907,7 @@
         {
           "name": "РЖД",
           "description": "официальное приложение Российских железных дорог для покупки ж/д билетов и управления поездками",
-          "image": "./assets/images/icons/ржд.webp",
+          "image": "./assets/images/icons/rzd.webp",
           "downloads": [
             {
               "type": "rustore",
@@ -924,7 +924,7 @@
         {
           "name": "Аэрофлот",
           "description": "приложение национального авиаперевозчика России для бронирования билетов, регистрации и управления бонусами",
-          "image": "./assets/images/icons/Аэрофлот.webp",
+          "image": "./assets/images/icons/aeroflot.webp",
           "downloads": [
             {
               "type": "rustore",
@@ -953,7 +953,7 @@
         {
           "name": "Яндекс.Путешествия",
           "description": "сервис для поиска отелей, билетов и оформления страховок с кешбэком от Яндекса",
-          "image": "./assets/images/icons/Я.Путешествия.webp",
+          "image": "./assets/images/icons/yandex.travel.webp",
           "downloads": [
             {
               "type": "rustore",
@@ -976,7 +976,7 @@
         {
           "name": "Мой Ростелеком",
           "description": "официальное приложение оператора для контроля счёта, покупки пакетов связи и управления тарифами",
-          "image": "./assets/images/icons/Ростелеком.webp",
+          "image": "./assets/images/icons/rostelekom.webp",
           "downloads": [
             {
               "type": "rustore",
@@ -993,7 +993,7 @@
         {
           "name": "Мегафон",
           "description": "официальное приложение оператора для контроля счёта, покупки пакетов связи и управления тарифами",
-          "image": "./assets/images/icons/МегаФон.webp",
+          "image": "./assets/images/icons/megafon.webp",
           "downloads": [
             {
               "type": "rustore",
@@ -1005,7 +1005,7 @@
         {
           "name": "МТС",
           "description": "официальное приложение оператора для контроля счёта, покупки пакетов связи и управления тарифами",
-          "image": "./assets/images/icons/МТС.webp",
+          "image": "./assets/images/icons/mts.webp",
           "downloads": [
             {
               "type": "rustore",
@@ -1039,7 +1039,7 @@
         {
           "name": "Билайн",
           "description": "официальное приложение оператора для контроля счёта, покупки пакетов связи и управления тарифами",
-          "image": "./assets/images/icons/билайн.webp",
+          "image": "./assets/images/icons/beeline.webp",
           "downloads": [
             {
               "type": "rustore",

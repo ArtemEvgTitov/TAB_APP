@@ -3,6 +3,7 @@
     {
       "class": "group green",
       "name": "Графические редакторы",
+      "id": "graphic",
       "apps": [
         {
           "name": "Sketchbook",
@@ -82,6 +83,7 @@
     {
       "class": "group blue",
       "name": "Гос.сервисы",
+      "id": "government",
       "apps": [
         {
           "name": "Госуслуги",
@@ -156,6 +158,7 @@
     {
       "class": "group orange",
       "name": "Офис и почта",
+      "id": "office",
       "apps": [
         {
           "name": "AdobeReader",
@@ -247,6 +250,7 @@
     {
       "class": "group green",
       "name": "AI",
+      "id": "ai",
       "apps": [
         {
           "name": "DeepSeek",
@@ -282,6 +286,7 @@
     {
       "class": "group blue",
       "name": "Браузеры",
+      "id": "browsers",
       "apps": [
         {
           "name": "Яндекс.Браузер",
@@ -329,6 +334,7 @@
     {
       "class": "group orange",
       "name": "Удалёнка",
+      "id": "remote",
       "apps": [
         {
           "name": "Zoom",
@@ -386,6 +392,7 @@
     {
       "class": "group green",
       "name": "Покупки",
+      "id": "shopping",
       "apps": [
         {
           "name": "Ozon",
@@ -489,6 +496,7 @@
     {
       "class": "group blue",
       "name": "Соц.сети/мессенджеры",
+      "id": "messengers",
       "apps": [
         {
           "name": "Telegram",
@@ -575,6 +583,7 @@
     {
       "class": "group orange",
       "name": "Онлайн-видео",
+      "id": "onlinevideo",
       "apps": [
         {
           "name": "IVI",
@@ -683,6 +692,7 @@
     {
       "class": "group green",
       "name": "Карты и навигация",
+      "id": "maps",
       "apps": [
         {
           "name": "2ГИС",
@@ -740,6 +750,7 @@
     {
       "class": "group blue",
       "name": "Видео редакторы",
+      "id": "videoeditors",
       "apps": [
         {
           "name": "FlipaClip:2D",
@@ -807,6 +818,7 @@
     {
       "class": "group orange",
       "name": "Эл.книги",
+      "id": "books",
       "apps": [
         {
           "name": "Яндекс.Книги",
@@ -869,6 +881,7 @@
     {
       "class": "group green",
       "name": "Путешествия",
+      "id": "travel",
       "apps": [
         {
           "name": "Суточно.ру",
@@ -972,6 +985,7 @@
     {
       "class": "group blue",
       "name": "Услуги и операторы",
+      "id": "services",
       "apps": [
         {
           "name": "Мой Ростелеком",
@@ -1058,6 +1072,7 @@
     {
       "class": "group orange",
       "name": "Просмотр видео",
+      "id": "viewing",
       "apps": [
         {
           "name": "VLC",

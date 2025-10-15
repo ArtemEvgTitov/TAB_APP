@@ -828,7 +828,7 @@
         {
           "name": "ЛитРес",
           "description": "крупнейший в России интернет-магазин и сервис для продажи электронных и аудиокниг",
-          "image": "./assets/images/icons/Литрес.png",
+          "image": "./assets/images/icons/litres.png",
           "downloads": [
             {
               "type": "rustore",

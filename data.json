@@ -390,7 +390,7 @@
         {
           "name": "Ozon",
           "description": "крупнейший российский онлайн-ритейлер с собственным маркетплейсом и службой доставки",
-          "image": "./assets/images/icons/Ozon.png",
+          "image": "./assets/images/icons/ozon.png",
           "downloads": [
             {
               "type": "rustore",

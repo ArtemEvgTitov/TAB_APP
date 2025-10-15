@@ -2,6 +2,7 @@ class SectionsLoader {
   constructor(containerId, jsonUrl) {
     this.container = document.getElementById(containerId);
     this.jsonUrl = jsonUrl;
+    this.isMenuOpen = false;
   }
 
   async loadAllSections() {
@@ -10,12 +11,74 @@ class SectionsLoader {
       const data = await response.json();
       this.renderHeaderMenu(data.sections);
       this.renderAllSections(data.sections);
-      this.initScrollToTop(); // Добавляем инициализацию кнопки
+      this.initMenuToggle(); // Инициализируем переключение меню
+      this.initScrollToTop();
     } catch (error) {
       console.error("Ошибка загрузки секций:", error);
       this.container.innerHTML =
         "<p>Ошибка загрузки данных. Пожалуйста, обновите страницу.</p>";
     }
+  }
+
+  initMenuToggle() {
+    const headerContainer = document.querySelector(".header_container");
+    const headerMenu = document.querySelector(".header_menu");
+    const overlay = document.getElementById("overlay");
+    const menuText = document.querySelector(".menu");
+
+    const toggleMenu = () => {
+      this.isMenuOpen = !this.isMenuOpen;
+
+      if (this.isMenuOpen) {
+        headerMenu.classList.add("active");
+        overlay.classList.add("active");
+        document.body.classList.add("locked");
+        menuText.textContent = "ЗАКРЫТЬ";
+      } else {
+        headerMenu.classList.remove("active");
+        overlay.classList.remove("active");
+        document.body.classList.remove("locked");
+        menuText.textContent = "МЕНЮ";
+      }
+    };
+
+    // Клик по заголовку меню
+    headerContainer.addEventListener("click", (e) => {
+      e.stopPropagation();
+      toggleMenu();
+    });
+
+    // Клик по overlay закрывает меню
+    overlay.addEventListener("click", () => {
+      if (this.isMenuOpen) {
+        toggleMenu();
+      }
+    });
+
+    // Клик по ссылке в меню закрывает меню
+    headerMenu.addEventListener("click", (e) => {
+      if (e.target.tagName === "A") {
+        toggleMenu();
+      }
+    });
+
+    // Закрытие меню при клике вне его области
+    document.addEventListener("click", (e) => {
+      if (
+        this.isMenuOpen &&
+        !headerContainer.contains(e.target) &&
+        !headerMenu.contains(e.target)
+      ) {
+        toggleMenu();
+      }
+    });
+
+    // Закрытие меню при нажатии Escape
+    document.addEventListener("keydown", (e) => {
+      if (this.isMenuOpen && e.key === "Escape") {
+        toggleMenu();
+      }
+    });
   }
 
   renderHeaderMenu(sections) {
@@ -31,7 +94,7 @@ class SectionsLoader {
       )
       .join("");
 
-    headerMenu.innerHTML += menuItemsHTML;
+    headerMenu.innerHTML = menuItemsHTML;
 
     this.addSmoothScroll();
   }

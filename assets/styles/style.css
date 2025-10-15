@@ -31,6 +31,8 @@ main {
   justify-content: center;
   flex-wrap: wrap;
   gap: 15px 15px;
+  position: relative;
+  z-index: 1;
 }
 li {
   padding: 1rem;
@@ -56,6 +58,8 @@ li:hover {
   padding-top: 1rem;
   border-radius: 0 0 15px 15px;
   position: relative;
+  z-index: 1000;
+  cursor: pointer;
 }
 
 .header_menu {
@@ -67,12 +71,31 @@ li:hover {
   opacity: 0;
   transition: all 0.3s ease-out;
   padding: 0 1rem;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.95),
+    rgba(255, 255, 255, 0.98)
+  );
+  backdrop-filter: blur(20px);
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  z-index: 1001;
 }
-.header_container:hover .header_menu {
+.header_menu.active {
   opacity: 1;
-  max-height: 100%;
+  max-height: 500px;
   padding: 1rem;
 }
+.header_container:hover .header_menu:not(.active) {
+  opacity: 0;
+  max-height: 0;
+  padding: 0 1rem;
+}
+
 .header_menu li a {
   color: black;
   font-family: "Comfortaa", sans-serif;
@@ -81,6 +104,24 @@ li:hover {
   border-radius: 20px;
   transition: all 0.3s ease;
   white-space: nowrap;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
 }
 
 .app_image {
@@ -293,6 +334,16 @@ li:hover {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    position: fixed;
+    top: 80px;
+    left: 10px;
+    right: 10px;
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+
+  .header_menu.active {
+    padding: 1.5rem 1rem;
   }
 
   .scroll-to-top {
@@ -329,8 +380,9 @@ li:hover {
   }
   .header_menu {
     gap: 1rem;
-    max-height: 200px;
+    max-height: 300px;
     overflow-y: auto;
+    position: absolute;
   }
 
   .header_menu li a {

@@ -11,7 +11,7 @@ class SectionsLoader {
       const data = await response.json();
       this.renderHeaderMenu(data.sections);
       this.renderAllSections(data.sections);
-      this.initMenuToggle(); // Инициализируем переключение меню
+      this.initMenuToggle();
       this.initScrollToTop();
     } catch (error) {
       console.error("Ошибка загрузки секций:", error);
@@ -34,35 +34,39 @@ class SectionsLoader {
         overlay.classList.add("active");
         document.body.classList.add("locked");
         menuText.textContent = "ЗАКРЫТЬ";
+        headerContainer.classList.add("active");
+
+        setTimeout(() => {
+          headerMenu.focus();
+        }, 100);
       } else {
         headerMenu.classList.remove("active");
         overlay.classList.remove("active");
         document.body.classList.remove("locked");
         menuText.textContent = "МЕНЮ";
+        headerContainer.classList.remove("active");
       }
     };
 
-    // Клик по заголовку меню
     headerContainer.addEventListener("click", (e) => {
       e.stopPropagation();
       toggleMenu();
     });
 
-    // Клик по overlay закрывает меню
     overlay.addEventListener("click", () => {
       if (this.isMenuOpen) {
         toggleMenu();
       }
     });
 
-    // Клик по ссылке в меню закрывает меню
     headerMenu.addEventListener("click", (e) => {
       if (e.target.tagName === "A") {
-        toggleMenu();
+        setTimeout(() => {
+          toggleMenu();
+        }, 300);
       }
     });
 
-    // Закрытие меню при клике вне его области
     document.addEventListener("click", (e) => {
       if (
         this.isMenuOpen &&
@@ -73,11 +77,14 @@ class SectionsLoader {
       }
     });
 
-    // Закрытие меню при нажатии Escape
     document.addEventListener("keydown", (e) => {
       if (this.isMenuOpen && e.key === "Escape") {
         toggleMenu();
       }
+    });
+
+    headerMenu.addEventListener("click", (e) => {
+      e.stopPropagation();
     });
   }
 
@@ -88,7 +95,7 @@ class SectionsLoader {
       .map(
         (section) => `
       <li>
-        <a href="#${section.id}">${section.name}</a>
+        <a href="#${section.id}" title="${section.name}">${section.name}</a>
       </li>
     `
       )

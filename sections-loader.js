@@ -94,8 +94,8 @@ class SectionsLoader {
     const menuItemsHTML = sections
       .map(
         (section) => `
-      <li>
-        <a href="#${section.id}" title="${section.name}">${section.name}</a>
+      <li class="${section.class}">
+        <a class="link-menu" href="#${section.id}" title="${section.name}"><img class="menu_icon" src="${section.icon}" alt="${section.id}_icon">${section.name}</a>
       </li>
     `
       )

@@ -252,7 +252,7 @@
     },
     {
       "class": "group green",
-      "name": "AI",
+      "name": "AI и VPN",
       "id": "ai",
       "icon": "./assets/images/menu/ai.png",
       "apps": [
@@ -282,6 +282,23 @@
               "type": "rustore",
               "url": "https://www.rustore.ru/catalog/app/com.google.android.apps.bard",
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            }
+          ]
+        },
+        {
+          "name": "Samsung MAX",
+          "description": "бесплатный VPN от Samsung для Android. Защищает данные в публичных сетях, экономит трафик и блокирует рекламу",
+          "image": "./assets/images/icons/samsungMaxVPN.webp",
+          "downloads": [
+            {
+              "type": "apk",
+              "url": "https://disk.360.yandex.ru/d/Um5ThZ6Pe0-N7g",
+              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
+            },
+            {
+              "type": "google-play",
+              "url": "https://play.google.com/store/apps/details?id=com.opera.max.global&pcampaignid=web_share",
+              "icon": "https://img.icons8.com/ios/100/google-play--v1.png"
             }
           ]
         }
@@ -692,6 +709,18 @@
             {
               "type": "apk",
               "url": "https://disk.360.yandex.ru/d/R1eh7uBJYZRAlg",
+              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
+            }
+          ]
+        },
+        {
+          "name": "Zona",
+          "description": "персональный кинотеатр в кармане, где фильмы онлайн доступны 24 часа в сутки",
+          "image": "./assets/images/icons/zona.png",
+          "downloads": [
+            {
+              "type": "apk",
+              "url": "https://disk.360.yandex.ru/d/O8OpZ0MG4ZZEEg",
               "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
             }
           ]

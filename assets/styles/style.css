@@ -5,6 +5,8 @@
 
 li {
   list-style: none;
+  padding: 1rem;
+  border-radius: 20px;
 }
 
 a {
@@ -34,10 +36,7 @@ main {
   position: relative;
   z-index: 1;
 }
-li {
-  padding: 1rem;
-  border-radius: 20px;
-}
+
 li:hover {
   transition: all 0.3s ease;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
@@ -105,15 +104,35 @@ li:hover {
   border-radius: 12px;
   transition: all 0.3s ease;
   margin: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+.menu_icon {
+  max-width: 2rem;
+  max-height: 2rem;
+  padding: 1rem;
+  filter: invert(1);
 }
 
 .header_menu li:hover {
-  background: rgba(0, 0, 0, 0.05);
   transform: translateY(-2px);
+  padding: 2rem;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(0.5px);
+}
+.header_menu li:hover a {
+  color: black;
+}
+.header_menu li:hover .menu_icon {
+  filter: invert(0);
 }
 
 .header_menu li a {
-  color: black;
+  color: white;
   font-family: "Comfortaa", sans-serif;
   font-size: 1.1em;
   font-weight: 500;
@@ -121,10 +140,8 @@ li:hover {
   border-radius: 0;
   transition: all 0.3s ease;
   white-space: nowrap;
-  display: block;
-}
-.header_menu li a:hover {
-  color: #0056b3;
+  display: flex;
+  align-items: center;
 }
 
 .overlay {
@@ -390,7 +407,7 @@ li:hover {
     right: 20px;
     width: 60px;
     height: 60px;
-    font-size: 20px;
+    font-size: 2rem;
   }
 }
 
@@ -445,9 +462,9 @@ li:hover {
   .scroll-to-top {
     bottom: 15px;
     right: 15px;
-    width: 40px;
-    height: 40px;
-    font-size: 18px;
+    width: 75px;
+    height: 75px;
+    font-size: 2rem;
   }
 }
 @media (min-width: 1024px) {
@@ -466,6 +483,5 @@ li:hover {
 
   .header_menu li a {
     font-size: 1em;
-    padding: 0.8rem 1.5rem;
   }
 }

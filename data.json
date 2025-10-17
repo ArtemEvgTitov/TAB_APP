@@ -4,6 +4,7 @@
       "class": "group green",
       "name": "Графические редакторы",
       "id": "graphic",
+      "icon": "./assets/images/menu/pen.png",
       "apps": [
         {
           "name": "Sketchbook",
@@ -84,6 +85,7 @@
       "class": "group blue",
       "name": "Гос.сервисы",
       "id": "government",
+      "icon": "./assets/images/menu/government.png",
       "apps": [
         {
           "name": "Госуслуги",
@@ -159,6 +161,7 @@
       "class": "group orange",
       "name": "Офис и почта",
       "id": "office",
+      "icon": "./assets/images/menu/office.png",
       "apps": [
         {
           "name": "AdobeReader",
@@ -251,6 +254,7 @@
       "class": "group green",
       "name": "AI",
       "id": "ai",
+      "icon": "./assets/images/menu/ai.png",
       "apps": [
         {
           "name": "DeepSeek",
@@ -287,6 +291,7 @@
       "class": "group blue",
       "name": "Браузеры",
       "id": "browsers",
+      "icon": "./assets/images/menu/browsers.png",
       "apps": [
         {
           "name": "Яндекс.Браузер",
@@ -335,6 +340,7 @@
       "class": "group orange",
       "name": "Удалёнка",
       "id": "remote",
+      "icon": "./assets/images/menu/remote.png",
       "apps": [
         {
           "name": "Zoom",
@@ -393,6 +399,7 @@
       "class": "group green",
       "name": "Покупки",
       "id": "shopping",
+      "icon": "./assets/images/menu/shopping.png",
       "apps": [
         {
           "name": "Ozon",
@@ -497,6 +504,7 @@
       "class": "group blue",
       "name": "Соц.сети/мессенджеры",
       "id": "messengers",
+      "icon": "./assets/images/menu/messengers.png",
       "apps": [
         {
           "name": "Telegram",
@@ -584,6 +592,7 @@
       "class": "group orange",
       "name": "Онлайн-видео",
       "id": "onlinevideo",
+      "icon": "./assets/images/menu/onlinevideo.png",
       "apps": [
         {
           "name": "IVI",
@@ -693,6 +702,7 @@
       "class": "group green",
       "name": "Карты и навигация",
       "id": "maps",
+      "icon": "./assets/images/menu/maps.png",
       "apps": [
         {
           "name": "2ГИС",
@@ -751,6 +761,7 @@
       "class": "group blue",
       "name": "Видео редакторы",
       "id": "videoeditors",
+      "icon": "./assets/images/menu/videoeditors.png",
       "apps": [
         {
           "name": "FlipaClip:2D",
@@ -819,6 +830,7 @@
       "class": "group orange",
       "name": "Эл.книги",
       "id": "books",
+      "icon": "./assets/images/menu/books.png",
       "apps": [
         {
           "name": "Яндекс.Книги",
@@ -882,6 +894,7 @@
       "class": "group green",
       "name": "Путешествия",
       "id": "travel",
+      "icon": "./assets/images/menu/travel.png",
       "apps": [
         {
           "name": "Суточно.ру",
@@ -964,7 +977,7 @@
           ]
         },
         {
-          "name": "Яндекс.Путешествия",
+          "name": "Я.Путешествия",
           "description": "сервис для поиска отелей, билетов и оформления страховок с кешбэком от Яндекса",
           "image": "./assets/images/icons/yandex.travel.webp",
           "downloads": [
@@ -986,6 +999,7 @@
       "class": "group blue",
       "name": "Услуги и операторы",
       "id": "services",
+      "icon": "./assets/images/menu/services.png",
       "apps": [
         {
           "name": "Мой Ростелеком",
@@ -1073,6 +1087,7 @@
       "class": "group orange",
       "name": "Просмотр видео",
       "id": "viewing",
+      "icon": "./assets/images/menu/viewing.png",
       "apps": [
         {
           "name": "VLC",

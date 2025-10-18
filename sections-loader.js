@@ -186,4 +186,25 @@ class SectionsLoader {
       });
     });
   }
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+
+    if (this.isMenuOpen) {
+      headerMenu.classList.add("active");
+      overlay.classList.add("active");
+      document.body.classList.add("locked");
+      menuText.textContent = "ЗАКРЫТЬ";
+      headerContainer.classList.add("active");
+
+      document.body.style.overflow = "hidden";
+    } else {
+      headerMenu.classList.remove("active");
+      overlay.classList.remove("active");
+      document.body.classList.remove("locked");
+      menuText.textContent = "МЕНЮ";
+      headerContainer.classList.remove("active");
+
+      document.body.style.overflow = "";
+    }
+  }
 }

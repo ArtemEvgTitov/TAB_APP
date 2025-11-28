@@ -803,11 +803,6 @@
               "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
             },
             {
-              "type": "apk",
-              "url": "https://disk.360.yandex.ru/d/dcf7HoO6yDMWqA",
-              "icon": "https://img.icons8.com/external-tal-revivo-light-tal-revivo/96/external-apk-file-resource-system-to-install-program-on-android-os-development-light-tal-revivo.png"
-            },
-            {
               "type": "google-play",
               "url": "https://play.google.com/store/apps/details?id=com.vblast.flipaclip&pcampaignid=web_share",
               "icon": "https://img.icons8.com/ios/100/google-play--v1.png"

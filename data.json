@@ -252,7 +252,7 @@
     },
     {
       "class": "group green",
-      "name": "AI и VPN",
+      "name": "AI",
       "id": "ai",
       "icon": "./assets/images/menu/ai.png",
       "apps": [
@@ -287,7 +287,7 @@
         },
         {
           "name": "Samsung MAX",
-          "description": "бесплатный VPN от Samsung для Android. Защищает данные в публичных сетях, экономит трафик и блокирует рекламу",
+          "description": "бесплатный *** от Samsung для Android. Защищает данные в публичных сетях, экономит трафик и блокирует рекламу",
           "image": "./assets/images/icons/samsungMaxVPN.webp",
           "downloads": [
             {

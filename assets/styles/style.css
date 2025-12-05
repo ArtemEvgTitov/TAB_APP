@@ -339,6 +339,9 @@ li:hover {
     gap: 12px;
     margin: 3% 0;
   }
+  footer {
+    margin: 4% 10% 4% 4%;
+  }
 
   .group {
     padding: 15px;

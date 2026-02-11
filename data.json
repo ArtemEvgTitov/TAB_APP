@@ -524,6 +524,18 @@
       "icon": "./assets/images/menu/messengers.png",
       "apps": [
         {
+          "name": "Max",
+          "description": "новая цифровая платформа, которая объединяет в себе сервисы для решения повседневных задач и мессенджер для комфортного общения.",
+          "image": "./assets/images/icons/max.webp",
+          "downloads": [
+            {
+              "type": "rustore",
+              "url": "https://www.rustore.ru/catalog/app/ru.oneme.app",
+              "icon": "./assets/images/icons/rustore-svgrepo-com.svg"
+            }
+          ]
+        },
+        {
           "name": "Telegram",
           "description": "кроссплатформенный мессенджер, разработанный в 2013 году братьями Павлом и Николаем Дуровыми",
           "image": "./assets/images/icons/telegram.png",

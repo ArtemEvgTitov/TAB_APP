@@ -208,3 +208,79 @@ class SectionsLoader {
     }
   }
 }
+// ==================== GOOGLE ANALYTICS 4 ЛОГИРОВАНИЕ ====================
+// Функция-помощник для отправки событий в GA4
+function sendGA4Event(eventName, eventParams = {}) {
+  if (typeof gtag === "function") {
+    gtag("event", eventName, eventParams);
+    console.log(`📊 GA4 Event [${eventName}]:`, eventParams);
+  } else {
+    console.warn("gtag not found. GA4 not loaded?");
+  }
+}
+
+// Слушаем клики по кнопкам скачивания
+document.addEventListener("click", function (e) {
+  const downloadLink = e.target.closest(".link_download");
+  if (downloadLink) {
+    // Ищем родительский контейнер приложения, чтобы вытащить название
+    const appCard = downloadLink.closest(".app");
+    const appName =
+      appCard?.querySelector(".title")?.textContent?.trim() || "Unknown App";
+    const downloadIcon = downloadLink.querySelector("img");
+    // Определяем тип магазина: смотрим alt у иконки или подпись
+    let storeType = downloadIcon?.alt || "unknown";
+    if (storeType.includes("apk")) storeType = "APK";
+    if (storeType.includes("google")) storeType = "GooglePlay";
+    if (storeType.includes("rustore")) storeType = "RuStore";
+
+    // Отправляем событие в GA4
+    sendGA4Event("app_download", {
+      app_name: appName,
+      store: storeType,
+      link_url: downloadLink.href,
+    });
+  }
+});
+
+// Слушаем клики по пунктам меню (динамически создаваемые ссылки)
+// Используем делегирование событий через document
+document.addEventListener("click", function (e) {
+  const menuLink = e.target.closest(".header_menu a");
+  if (menuLink) {
+    const sectionName =
+      menuLink.querySelector("img")?.alt ||
+      menuLink.textContent?.trim() ||
+      "Unknown Section";
+    const sectionId =
+      menuLink.getAttribute("href")?.replace("#", "") || "unknown";
+
+    sendGA4Event("menu_click", {
+      section_name: sectionName,
+      section_id: sectionId,
+    });
+  }
+});
+
+// Слушаем клики по кнопке "Наверх"
+document.addEventListener("click", function (e) {
+  const scrollBtn = e.target.closest("#scrollToTop");
+  if (scrollBtn) {
+    sendGA4Event("ui_action", {
+      action: "scroll_to_top",
+    });
+  }
+});
+
+// Слушаем открытие/закрытие меню (клик по кнопке МЕНЮ)
+document.addEventListener("click", function (e) {
+  const menuButton = e.target.closest(".header_container");
+  if (menuButton) {
+    const menuText = document.querySelector(".menu")?.textContent || "МЕНЮ";
+    // Если текст стал "ЗАКРЫТЬ" - значит меню открыто
+    const isOpening = menuText.includes("ЗАКРЫТЬ");
+    sendGA4Event("menu_toggle", {
+      action: isOpening ? "open" : "close",
+    });
+  }
+});
